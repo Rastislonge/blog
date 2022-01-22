@@ -66,6 +66,3 @@ scan_domain $i
 report_domain $i
 done
 fi
-cp /dev/null $DIRECTORY/report
-cat $DIRECTORY/report.tmp > $DIRECTORY/report
-rm $DIRECTORY/report.tmp
